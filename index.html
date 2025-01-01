@@ -24,8 +24,12 @@
     <meta property="twitter:title" content="Oxxen Tecnologia - Certificadora SISBOV e Rastreabilidade Animal">
     <meta property="twitter:description" content="Certificadora credenciada pelo MAPA para SISBOV. Especialistas em rastreabilidade animal, garantindo conformidade e qualidade do seu rebanho desde 2002.">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -60,8 +64,9 @@
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <a href="#" class="text-2xl font-bold text-primary">
-                        OXXEN
+                    <a href="#" class="text-2xl font-bold">
+                        <img src="assets/images/logo.png" alt="Oxxen Logo" class="h-12 block dark:hidden">
+                        <img src="assets/images/logo-light.png" alt="Oxxen Logo" class="h-12 hidden dark:block">
                     </a>
                 </div>
                 
@@ -557,7 +562,9 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                 <!-- Coluna 1: Logo e Descrição -->
                 <div class="col-span-1 md:col-span-2">
-                    <h4 class="text-2xl font-bold text-primary mb-4">Oxxen Tecnologia</h4>
+                    <div class="mb-6">
+                        <img src="assets/images/logo-light.png" alt="Oxxen Logo" class="h-12">
+                    </div>
                     <p class="text-gray-400 mb-6 leading-relaxed">
                         Certificadora credenciada pelo MAPA desde 2002, especializada em rastreabilidade animal e certificação SISBOV. Fornecemos soluções tecnológicas inovadoras para garantir a conformidade e qualidade do seu rebanho, atendendo às exigências nacionais e internacionais de rastreabilidade bovina.
                     </p>
