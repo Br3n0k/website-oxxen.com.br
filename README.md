@@ -100,4 +100,4 @@ oxxen-website/
 
 ---
 
-Desenvolvido com 💙 pela equipe Oxxen Tecnologia 
+Desenvolvido com 💙 pela equipe NokTech. 
